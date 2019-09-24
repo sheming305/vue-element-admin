@@ -37,7 +37,13 @@ export const constantRouterMap = [
         name: 'Fullcalendar',
         component: () => import('@/views/fullcalendar/fullcalendar'),
         meta: { title: 'calendar' }
-      }
+      },
+			{
+				path: 'chuansuo',
+				name: 'chuansuo',
+				component: () => import('@/views/chunsuo/deposit_card'),
+				meta: { title: '穿梭框' }
+			}
     ]
   },
   {
